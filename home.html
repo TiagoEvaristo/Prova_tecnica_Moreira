@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+        /*font-family: 'Open Sans', sans-serif;*/
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        #header{
+            background-color: #2e1329fd;
+            height: 150px;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #Logotipo{
+            height: 150px;
+        }
+
+        #main{
+            display: flex;
+            justify-content: center;
+            border-bottom: 2px solid rgba(168, 167, 167, 0.637);
+        }
+
+        #titulo{
+            padding: 20px 0px 20px 0px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.3em;
+            color: rgb(68, 166, 199);
+        }
+
+        .texto_principal{
+            margin-top: 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.9em;
+        }
+
+        .sub-titulo{
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            padding: 30px 0px 30px 0px;
+            font-size: 1.1em;
+            color: gray;
+        }
+
+        #footer_inicio{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 50px;
+            align-items: center;
+        }
+
+        #item1{
+            display: block;
+            height: 38px;
+            width: 140px;
+        }
+
+        #item2{
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            color: blue;
+            font-weight: bold;
+        }
+
+        #item3{
+            display: block;
+            width: 150px;
+            height: 150px;
+            border-radius: 100px;
+        }
+
+        span{
+            font-size: 1em;
+            font-weight: bold;
+            color: rgb(121, 121, 121);
+        }
+
+        .primeiro_texto_footer{
+            font-size: 1em;
+            font-weight: bold;
+            color: rgb(121, 121, 121);
+            text-align: center;
+            padding: 0px 0px 50px 0px;
+        }
+
+        .segundo_texto_footer{
+            font-size: 0.8em;
+            font-weight: normal;
+            color: rgb(121, 121, 121);
+            text-align: center;
+            padding: 0px 0px 50px 0px;
+        }
+
+        a{
+            text-decoration: none;
+            color: rgb(59, 59, 247);
+        }
+
+        a:hover{
+            color: rgb(21, 21, 248);
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <img id="Logotipo" src="Backgroud_header.jpg" alt="">
+    </header>
+
+    <main id="main">
+        <section id="section_1">
+            <h1 id="titulo">Pesquisa de Satisfação - Pris IP Manager</h1>
+
+            <p class="texto_principal">Bom dia, Diego! Tudo bem?</p>
+
+            <p class="texto_principal">Visando uma maior <strong>proximidade</strong> com nossos clientes e um <strong>alto <br> padrão de qualidade</strong> em nossos serviços, colocaremos no ar essa <br> semanana nossa <strong>pesquisa trimestral</strong> de <strong>satisfação.</strong></p>
+
+            <p class="texto_principal">Você receberá nos próximos dias um e-mail com apenas <strong>uma <br> pergunta </strong>sobre nossos serviços. Possivelmente, o tempo de <br> resposta será inferior a <strong>30 segundos</strong> :)</p>
+
+            <h2 class="sub-titulo">Contamos com sua participação!</h2>
+        </section>
+    </main>
+
+    <footer id="section_2">
+        <div id="footer_inicio">
+            <img id="item1" src="Logo_footer.jpg" alt="Logotipo de footer da Pris">
+            <p id="item2"><a href="" target="__blank">Thiago Moreira de Carvalho</a> <br><span>Sucesso do Cliente</span></p>
+            <img id="item3" src="foto_perfil.jpg" alt="Foto do funcionário da Pris">
+        </div>
+
+        <div id="footer">
+            <p class="primeiro_texto_footer">Simplificando sua gestão, onde estivermos #JuntosContraOVirus</p>
+
+            <p class="segundo_texto_footer">Caso não queira mais receber nossos e-mails. <a href="#" target="__blank">Clique aqui</a></p>
+        </div>
+    </footer>
+</body>
+</html>
